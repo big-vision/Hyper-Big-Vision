@@ -1,0 +1,27 @@
+{
+  "name": "hyper-big-vision",
+  "version": "1.0.0",
+  "description": "Hyper theme inspired by Big Vision",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/big-vision/hyper-big-vision.git"
+  },
+  "keywords": [
+    "hyper",
+    "terminal",
+    "theme",
+    "big",
+    "vision",
+    "bgvsn"
+  ],
+  "author": "Louis Novick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/big-vision/hyper-big-vision/issues"
+  },
+  "homepage": "https://github.com/big-vision/hyper-big-vision#readme"
+}
