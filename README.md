@@ -12,7 +12,7 @@ hpm user?
 
 ## Recommended Pairings
 
-`fontFamily: Fira Code`
+`fontFamily: "Fira Code"`
 
 [spaceship-zsh-theme](https://github.com/denysdovhan/spaceship-zsh-theme)
 
