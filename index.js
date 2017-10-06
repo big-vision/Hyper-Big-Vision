@@ -11,7 +11,7 @@ exports.decorateConfig = (config) => {
       '#6ecb98', // green
       '#ffd756', // yellow
       '#00acc8', // blue
-      '#44273a', // magenta
+      '#f05f45', // magenta
       '#00acc8', // cyan
       '#dbd9d6', // white
       // Bright Colors
@@ -20,9 +20,15 @@ exports.decorateConfig = (config) => {
       '#8ed6ac', // green
       '#ffd756', // yellow
       '#00bdd3', // blue
-      '#674d5d', // magenta
+      '#f05f45', // magenta
       '#00bdd3', // cyan
       '#f9f7f6' // white
-    ]
+    ],
+    css: `
+      ${config.css || ''}
+      .tab_active .tab_text {
+        color: #6ecb98;
+      }
+    `
   });
 }
